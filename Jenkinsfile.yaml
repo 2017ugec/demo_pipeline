@@ -1,0 +1,12 @@
+stages:
+  - stage: Build
+    steps:
+      - name: Build Docker image
+        run:
+          command: docker build -t my-python-app .
+
+  - stage: Test
+    steps:
+      - name: Run Docker container
+        run:
+          command: docker run my-python-app
