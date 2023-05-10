@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD [ "python", "my_script.py" ]
+CMD [ "python", "myscript.py" ]
