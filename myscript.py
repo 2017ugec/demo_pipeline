@@ -10,4 +10,4 @@ print(df)
 ## code to get this password :: "docker exec my-jenkins cat /var/jenkins_home/secrets/initialAdminPassword"
 ## starting jenkins :: "docker run -d -p 8080:8080 -p 50000:50000 --name jenkins jenkins/jenkins"
 
-## Github token :: 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
+## Github token :: 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
